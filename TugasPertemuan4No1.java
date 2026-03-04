@@ -18,15 +18,11 @@ public class TugasPertemuan4No1 {
         System.out.print("Masukkan nilai n (n >= 1): ");
         int n = input.nextInt();   // menyimpan nilai n dari user
 
-        // PROSES
-        // Perulangan dari 1 sampai n
+        // PROSES + OUTPUT
         System.out.println("Bilangan dari 1 sampai " + n + " adalah:");
         for (int i = 1; i <= n; i++) {
-
-            // OUTPUT
-            // Menampilkan angka
-            System.out.println("Bilangan dari 1 sampai " + n + " adalah:");
             System.out.print(i + " ");
         }
     }   
 }
+
